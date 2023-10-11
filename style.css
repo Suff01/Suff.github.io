@@ -1,0 +1,73 @@
+/* Meng-import Font dari Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Young+Serif&display=swap');
+
+/* Setting up the Body Element */
+body {
+    font-family: 'Young Serif', serif;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    
+    /* Scrolling */
+    /* Scrolling Horizontal Disembunyikan */
+    overflow-x: hidden;
+    background-color: black;
+
+    background-image: url(asset/Background\ 4.jpg);
+
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container {
+    width: 91%;
+    max-width: 680px;
+    margin: 10px;
+    padding: 50px 0px 100px 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-container img {
+    width: 150px;
+    border-radius: 50%;
+}
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+
+    color: red;
+}
+.link-item {
+    width: 100%;
+    height: 56px;
+    margin: 16px;
+    border-radius: 20px;
+
+    color: white;
+    text-decoration: none;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+}
+.icon {
+    margin: 2px 8px;
+    width: 44px;
+    height: 44px;
+}
+.link-item p {
+    margin-right: 60px;
+}
+.link-item:hover {
+    transition: cubic-bezier(07, 1.41, .82, 1.41) 0.2s;
+    transform: scale(1.02);
+    background-color: (72, 66, 66);
+}
